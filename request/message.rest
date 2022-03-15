@@ -1,0 +1,10 @@
+GET http://localhost:3002/api/message
+
+###
+
+POST http://localhost:3002/api/message
+Content-Type: application/json
+
+{
+    "text":"i know i am behind but never say never"
+}
